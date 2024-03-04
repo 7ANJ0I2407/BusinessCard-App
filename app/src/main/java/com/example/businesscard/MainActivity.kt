@@ -73,17 +73,17 @@ fun BusinessCard() {
         Text(text = "Sanjoy Garai", fontSize = 50.sp, color = Color.White)
         Text(text = "Andoid Developer", fontSize = 25.sp, color = Green)
         Spacer(modifier = Modifier.padding(bottom = 150.dp))
-        Divider(modifier = Modifier.fillMaxWidth(), color = Color(0xFF4F6C79))
+        Divider(modifier = Modifier.fillMaxWidth(), thickness = 2.dp, color = Color(0xFF4F6C79))
         ContactRow(
             text = "+91 6296426394",
             textBlur = 5.dp,
             icon = Icons.Rounded.Phone
         )
-        Divider(modifier = Modifier.fillMaxWidth(), color = Color(0xFF4F6C79))
+        Divider(modifier = Modifier.fillMaxWidth(), thickness = 2.dp, color = Color(0xFF4F6C79))
         ContactRow(
             text = "@sanjoy2407", icon = Icons.Rounded.Share
         )
-        Divider(modifier = Modifier.fillMaxWidth(), color = Color(0xFF4F6C79))
+        Divider(modifier = Modifier.fillMaxWidth(), thickness = 2.dp, color = Color(0xFF4F6C79))
         ContactRow(
             text = "sanjoygarai2407@gmail.com", icon = Icons.Rounded.Email
         )
